@@ -323,6 +323,7 @@ li {
   background-color: var(--accent-color);
   color: var(--tertiary-text-color);
 }
+
 .exmpls {
   display: flex;
   flex-wrap: wrap;
