@@ -138,11 +138,11 @@ li {
 .hero {
   background-color: var(--secondary-bg-color);
   margin: 0;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .hero-container {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
 }
 .hero-title {
   padding-bottom: 30px;
@@ -209,7 +209,7 @@ li {
   padding-top: 0;
 }
 .work-container h2 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .work-title {
   display: flex;
@@ -222,7 +222,7 @@ li {
   background-color: var(--tertiary-bg-color);
 }
 .team h2 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -241,26 +241,32 @@ li {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team p {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
+}
+.team-name {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 /*Footer*/
 .footer {
   background-color: var(--secondary-bg-color);
 }
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer .logo {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.footer-logo {
+  padding: 0;
 }
 .footer .studio {
   color: var(--tertiary-text-color);
@@ -278,20 +284,16 @@ li {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-list li {
+.footer-list li:not(:last-child) {
   padding-bottom: 9px;
 }
-.footer-list li:last-child {
-  padding-bottom: 60px;
-}
-
 /*Portfolio page*/
 
 /*buttons*/
 .btn-portfolio {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .btn-portfolio li:not(:last-child) {
   margin-right: 8px;
