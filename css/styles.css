@@ -86,8 +86,8 @@ li {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 
-  padding-top: 40px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-item {
   margin-right: 50px;
@@ -121,8 +121,8 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  padding-top: 40px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts .title:focus {
   color: var(--accent-color);
@@ -211,6 +211,13 @@ li {
 .work-container h2 {
   margin-bottom: 50px;
 }
+.work-name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .work-title {
   display: flex;
 }
@@ -256,11 +263,10 @@ li {
 /*Footer*/
 .footer {
   background-color: var(--secondary-bg-color);
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer .logo {
   display: block;
   margin-bottom: 20px;
